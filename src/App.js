@@ -16,7 +16,6 @@ function App() {
         {isAuthenticated ? (
           <>
             <Profile />
-            <LogoutButton />
           </>
         ) : (
           <LoginButton />
