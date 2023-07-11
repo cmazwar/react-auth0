@@ -5,7 +5,7 @@ export const LogoutButton = () => {
   const { logout } = useAuth0();
 
   return (
-    <button onClick={() => logout({ returnTo: window.location.origin })}>
+    <button onClick={() => logout({ returnTo: "https://main--strong-raindrop-fad21f.netlify.app/" })}>
       Logout
     </button>
   );
